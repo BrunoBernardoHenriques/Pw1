@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Projeto 3</title>
+</head>
+<body>
+	<meta charset="utf-8">
+	<style type="text/css">
+		input[type=submit] {
+  width: 100%;
+  background-color: green;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+		header{
+			background-color:gray;
+			height: 100px;
+			width: 1350px;
+			font-size: 20px;
+			text-align: center;
+			position: absolute;
+			top: 1px;
+		}
+		h3{
+			position: absolute;
+			top: 30px;
+			left: 50px;
+		}
+			h1{
+				position: absolute;
+				top: -10px;
+				left: 50px;
+			}
+#compra{
+	height: 70px;
+	width: 200px;
+	background-color:lightgray;
+	position: absolute;
+	font-size: 40px;
+	top: 120px;
+}
+#foto{
+height: 370px;
+	width: 200px;
+	background-color:#D9F1FF;
+	position: absolute;
+	font-size: 15px;
+	top: 220px;
+
+}
+img{
+	height: 200px;
+	}
+form{
+  width: 900px;
+  height: 472px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 120px;
+  left: 285px;
+  font-size: 20px;
+}
+select,input[type=date]{
+	
+	 width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+#vamo{
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	left: 300px;
+	top: 10px;
+	border: 0;
+
+
+}
+	</style>
+
+
+
+
+<header>
+	<h1>Ótima Escolha!</h1>
+	<h3>Obrigado por comprar na Loja de Roupas 0% Genérica. Preencha os dados para efetuar a compra</h3>
+</header>
+
+
+<form method="post" action="comprovante.php">
+	<b>Dados Pessoais</b>
+	<br>
+	Nome: 
+	<br>
+<input type="text" name="Nome" required placeholder="Nome Completo">
+<br>
+Email:
+<br>
+<input type="email" name="Email" required placeholder="email@exemplo.com">
+<br>
+CPF:
+<br>
+<input type="text" name="CPF" required placeholder="000.000.000-00">
+<fieldset id="vamo">
+	<b>Cartão de Crédito</b>
+	<br>
+	Número - CVV
+	<br>
+	<input type="text" name="numero" required>
+	<br>
+	Bandeira:
+	<select  name="bandeira">
+   		<option value="Master Card">Master Card</option>
+   		<option value="Visa">Visa</option>
+   		<option value="Caixa">Caixa</option>
+   	</select>
+   	<br>
+   	Validade:
+   	<br>
+   	<input type="date" name="validade" >
+ <input type="submit" name="Enviar" value="Confimar Seu Pedido">
+</fieldset>
+</form>
+
+
+
+<nav id="compra">
+	Sua Compra
+</nav>
+<nav id="foto">
+	<img src="http://images.tcdn.com.br/img/img_prod/106971/1173_1_20170304210931.jpg">
+	<b>Produto:</b>
+	<br>
+	Camisa Genérica Vermelha
+	<br>
+	<b>Cor:</b>
+	<br>
+	Vermelho
+	<br>
+	<b>Tamanho:</b>
+	<br>
+	42
+	<br>
+	<b>Preço:</b>
+	<br>
+	R$: 47,50
+</nav>
+
+
+
+
+
+</body>
+</html>
