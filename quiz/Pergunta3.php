@@ -132,8 +132,8 @@ h1{
  <input type="radio" name="p3" value="Royal Claymore">
   <span class="checkmark"></span>
 </label>
-<label class="container">Torch
- <input type="radio" name="p3" value="Bokoblin">
+<label class="container">
+ <input type="radio" name="p3" value="Torch">Torch
   <span class="checkmark"></span>
  
 
