@@ -95,7 +95,7 @@ src: url("Triforce.eot");
 	.logi{
 		position: absolute;
 		top:50%;
-		left: 41%;
+		left: 577px;
 		color: white;
 		font:bold;
 		font-family: Zelda;
@@ -109,13 +109,13 @@ border-radius: 20px;
 	position: absolute;
 	width: 100px;
 	top:200px;
-	left: 500px;
+	left: 470px;
 }
 #foto2{
 	position: absolute;
 	width: 100px;
 	top:200px;
-	left: 600px;
+	left: 570px;
 }
 #foto3{
 	position: absolute;
@@ -133,13 +133,13 @@ border-radius: 20px;
 	position: absolute;
 	width: 100px;
 	top:292px;
-	left: 500px;
+	left: 470px;
 }
 #r2{
 	position: absolute;
 	width: 100px;
 	top:292px;
-	left: 600px;
+	left: 570px;
 }
 #r3{
 	position: absolute;
